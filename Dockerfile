@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190425
 
 RUN apt-get update -qq
 RUN apt-get install -y apt-transport-https
